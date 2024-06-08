@@ -1,0 +1,893 @@
+.whatsapp-logo-icon {
+    width: 53px;
+    position: relative;
+    height: 53px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.whatsapp {
+    border-radius: var(--br-980xl);
+    background-color: var(--base-base-white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 14px var(--padding-base);
+}
+.instagram-logo-icon {
+    width: 48px;
+    position: relative;
+    height: 48px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.instagram {
+    border-radius: var(--br-980xl);
+    background-color: var(--base-base-white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-base) 18px;
+}
+.facebook-logo-icon {
+    width: 51px;
+    position: relative;
+    height: 51px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.facebook {
+    border-radius: var(--br-980xl);
+    background-color: var(--base-base-white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 15px 17px;
+}
+.redes {
+    position: absolute;
+    top: 492px;
+    left: 1306px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 13px;
+}
+.portada {
+    width: 1442px;
+    position: relative;
+    height: 811px;
+    overflow: hidden;
+    flex-shrink: 0;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.portada__imagen {
+    width: 1440px;
+
+}
+
+.portada-container {
+    position: absolute;
+    top: 0px;
+    left: 51px;
+    background-color: var(--base-base-black);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.identity-carnet-icon {
+    width: 550px;
+    height: 726px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.vector-icon {
+    width: 60px;
+    position: relative;
+    height: 60px;
+    z-index: 0;
+}
+.vector-icon1 {
+    width: 8.78%;
+    position: absolute;
+    margin: 0 !important;
+    height: 14.32%;
+    top: 39.5%;
+    right: 52.22%;
+    bottom: 46.18%;
+    left: 39%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    z-index: 1;
+}
+.vector-icon2 {
+    width: 8.78%;
+    position: absolute;
+    margin: 0 !important;
+    height: 14.32%;
+    top: 39.5%;
+    right: 52.22%;
+    bottom: 46.18%;
+    left: 39%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    z-index: 2;
+}
+.illustrator-logo {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-6xs);
+    position: relative;
+    gap: var(--gap-3xs);
+}
+.illustrator-rating-child {
+    width: 31px;
+    position: relative;
+    border-radius: var(--br-980xl);
+    background-color: var(--primary-primary);
+    height: 31px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.illustrator-rating {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+}
+.illustrator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 11px;
+}
+.vector-icon3 {
+    width: 59px;
+    position: relative;
+    height: 59px;
+    z-index: 0;
+}
+.vector-icon4 {
+    width: 11.51%;
+    position: absolute;
+    margin: 0 !important;
+    height: 12.33%;
+    top: 37.67%;
+    right: 56.45%;
+    bottom: 50.01%;
+    left: 32.04%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    z-index: 1;
+}
+.photoshop-rating-child2 {
+    width: 31px;
+    position: relative;
+    border-radius: var(--br-980xl);
+    border: 2px solid var(--primary-primary);
+    box-sizing: border-box;
+    height: 31px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.photoshop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+}
+.group-icon {
+    width: 64.3px;
+    position: relative;
+    height: 64.3px;
+    object-fit: cover;
+}
+.figma-logo {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0px;
+}
+.figma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 19px;
+}
+.programas {
+    position: absolute;
+    top: 573px;
+    left: 155px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.sobre-mi {
+    position: relative;
+    line-height: 120%;
+}
+.identity-title {
+    position: absolute;
+    top: 68px;
+    left: 179px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.identity-paper-1-icon {
+    position: absolute;
+    top: 215px;
+    left: 113px;
+    width: 262px;
+    height: 275px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.identity-paper-2-icon {
+    position: absolute;
+    top: 223px;
+    left: 532px;
+    width: 260px;
+    height: 260px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.identity-sticker-1-icon {
+    position: absolute;
+    top: 183px;
+    left: 491px;
+    width: 128.1px;
+    height: 110.5px;
+    overflow: hidden;
+    object-fit: contain;
+}
+.identity-sticker-2-icon {
+    position: absolute;
+    top: 394px;
+    left: 48px;
+    width: 203.1px;
+    height: 139.3px;
+    overflow: hidden;
+    object-fit: contain;
+}
+.identity-info {
+    width: 892px;
+    position: relative;
+    height: 726px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.identity {
+    width: 1442px;
+    height: 726px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.como-diseadora-busco {
+    white-space: pre-wrap;
+}
+.saber-dibujar {
+    color: #cd24ff;
+}
+.identity-footer {
+    width: 1439px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 149px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--portafolio-mobile-headings-heading-4-size);
+    font-family: var(--portafolio-desktop-body-feature-emphasis);
+}
+.identity-container {
+    position: absolute;
+    top: 811px;
+    left: 49px;
+    background-color: var(--base-base-black);
+    width: 1443px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 51px;
+    text-align: center;
+    font-size: var(--portafolio-desktop-headings-display-2-size);
+    color: var(--base-base-white);
+    font-family: var(--portafolio-desktop-headings-display-2);
+}
+
+.campaa-social-icon {
+    width: 260px;
+    position: relative;
+    border-radius: var(--spacing-ml);
+    height: 405px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.campaa-social-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.trabajo-de-teora-de-imagen-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--portafolio-desktop-body-content-emphasis-size);
+}
+.campaa-texto {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 19px;
+    gap: var(--gap-12xs);
+}
+.proyecto-1 {
+    position: absolute;
+    top: 2428px;
+    left: 189px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-xs);
+}
+.poster-icon {
+    width: 229px;
+    position: relative;
+    border-radius: var(--spacing-ml);
+    height: 407px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.trabajo-de-teora-de-imagen-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: var(--portafolio-desktop-body-content-emphasis-size);
+}
+.poster-texto {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px var(--padding-12xs);
+}
+.proyecto-2 {
+    position: absolute;
+    top: 2429px;
+    left: 522px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+    text-align: center;
+}
+.portada-icon {
+    width: 269px;
+    position: relative;
+    border-radius: var(--spacing-ml);
+    height: 404px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.portada-texto {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 26px;
+}
+.proyecto-3 {
+    position: absolute;
+    top: 2428px;
+    left: 821px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+}
+.producto-icon {
+    width: 229px;
+    position: relative;
+    border-radius: var(--spacing-ml);
+    height: 408px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.producto-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.proyecto-4 {
+    position: absolute;
+    top: 2428px;
+    left: 1148px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+}
+.barranquilla-icon {
+    width: 570px;
+    position: relative;
+    border-radius: var(--spacing-ml);
+    height: 321px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.barranquilla-texto {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 92px;
+    gap: var(--gap-12xs);
+}
+.proyecto-5 {
+    position: absolute;
+    top: 2993px;
+    left: 188px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+}
+.power-ade-icon {
+    width: 568px;
+    position: relative;
+    border-radius: var(--spacing-ml);
+    height: 319px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.trabajo-de-teora-de-imagen-wrapper2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--portafolio-desktop-body-caption-emphasis-size);
+}
+.power-texto {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 152px;
+    gap: var(--gap-12xs);
+}
+.proyecto-6 {
+    position: absolute;
+    top: 2993px;
+    left: 803px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+    font-size: var(--portafolio-mobile-headings-heading-3-size);
+}
+
+.proyectos__content{
+    display: flex;
+    width: 1197px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 104px 56px;
+    flex-wrap: wrap;
+
+}
+.p-r-o {
+    position: relative;
+    line-height: 120%200;
+    white-space: pre-wrap;
+/* }
+.proyectos__title{
+    display: flex;
+    width: 1440px;
+    padding: 0px 379px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    color: var(--Base-Base-Black, #000);
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 38.4px */
+    letter-spacing: 40px;
+} */
+
+.proyectos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 123px;
+    align-self: stretch;
+
+}
+.proyectos-container{
+    /* display: inline-flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+.paleta-1-child {
+    width: 362px;
+    position: relative;
+    background-color: var(--base-base-black);
+    height: 47px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.paleta-1-item {
+    width: 360px;
+    position: relative;
+    background-color: var(--neutrals-neutrals700);
+    height: 47px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.paleta-1-inner {
+    width: 361px;
+    position: relative;
+    background-color: #4fcec5;
+    height: 47px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.paleta-1-child1 {
+    width: 360px;
+    position: relative;
+    background-color: #e1c9a5;
+    height: 47px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.paleta-1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.branding-texto {
+    display: flex;
+    width: 1440px;
+    padding: 0px 379px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    color: var(--Base-Base-Black, #000);
+    /* PORTAFOLIO/Desktop/Headings/Heading 4 */
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 38.4px */
+    letter-spacing: 40px;
+}
+.branding-mockups-child {
+    width: 357px;
+    position: relative;
+    height: 199px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.branding-mockups-item {
+    width: 367px;
+    position: relative;
+    height: 205px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.branding-mockups-inner {
+    width: 375px;
+    position: relative;
+    height: 210px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.frame-icon {
+    width: 354px;
+    position: relative;
+    height: 198px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.branding-mockups-child1 {
+    width: 355px;
+    position: relative;
+    height: 198px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.branding-mockups-child2 {
+    width: 380px;
+    position: relative;
+    height: 211px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.branding-mockups {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+}
+.branding {
+    width: 1443px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 57px;
+}
+.branding-container {
+    position: absolute;
+    top: 3469px;
+    left: 50px;
+    background-color: var(--base-base-white);
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacing-xl) 0px;
+    box-sizing: border-box;
+    font-size: var(--portafolio-desktop-headings-heading-4-size);
+}
+.branding-sticker-icon {
+    position: absolute;
+    top: 3469px;
+    left: 58px;
+    width: 244.7px;
+    height: 247.2px;
+    overflow: hidden;
+    object-fit: contain;
+}
+.paleta-2-child {
+    flex: 1;
+    position: relative;
+    background-color: #d932ce;
+    height: 47px;
+    overflow: hidden;
+}
+.paleta-2-item {
+    width: 239.8px;
+    position: relative;
+    background-color: #7f44a6;
+    height: 47px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.paleta-2-inner {
+    width: 239.8px;
+    position: relative;
+    background-color: #010440;
+    height: 47px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.paleta-2-child1 {
+    width: 239.8px;
+    position: relative;
+    background-color: #1a1e78;
+    height: 47px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.paleta-2-child2 {
+    width: 239.8px;
+    position: relative;
+    background-color: #74d4ff;
+    height: 47px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.paleta-2-child3 {
+    flex: 1;
+    position: relative;
+    background-color: #009cb9;
+    height: 47px;
+    overflow: hidden;
+}
+.logotipo-texto {
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 638px;
+
+    color: var(--Base-Base-Black, #000);
+
+    /* PORTAFOLIO/Desktop/Headings/Heading 4 */
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 38.4px */
+    letter-spacing: 40px;
+
+}
+.logo-negro-icon {
+    width: 291px;
+    height: 307px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.marca-logo {
+    align-self: stretch;
+    height: 310px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 476px;
+    box-sizing: border-box;
+    gap: 56px;
+}
+.marca-logotipo-child {
+    width: 576px;
+    position: relative;
+    border-radius: 50%;
+    height: 576px;
+    object-fit: cover;
+}
+.logotipo-marca {
+    align-self: stretch;
+    height: 886px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.logotipo {
+    width: 1443px;
+    height: 1206px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 65px;
+}
+.logotipo-container {
+    position: absolute;
+    top: 4256px;
+    left: 50px;
+    background-color: var(--base-base-white);
+    width: 1441px;
+    height: 1155px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacing-xl) 0px;
+    box-sizing: border-box;
+    font-size: var(--portafolio-desktop-headings-heading-4-size);
+}
+.rasgado-1-icon {
+    position: absolute;
+    top: 1629px;
+    left: 51px;
+    width: 1441px;
+    height: 534px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.rasgado-2-icon {
+    position: absolute;
+    top: 5411px;
+    left: 51px;
+    width: 1441px;
+    height: 490px;
+    overflow: hidden;
+    object-fit: contain;
+}
+.footer {
+    position: absolute;
+    top: 5900px;
+    left: 51px;
+    background-color: var(--base-base-black);
+    width: 1441px;
+    height: 115px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 474px;
+    box-sizing: border-box;
+
+    color: #FFF;
+
+    /* PORTAFOLIO/Desktop/Body/Feature Emphasis */
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 120%; /* 28.8px */
+    }
+.portafolio-camila {
+    width: 100%;
+    position: relative;
+    background-color: var(--base-base-white);
+    height: 6015px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--portafolio-mobile-headings-heading-4-size);
+    color: var(--base-base-black);
+    font-family: var(--portafolio-desktop-body-feature-emphasis);
+}
+
